@@ -11,7 +11,7 @@ def send_sms(to, body):
     try:
         message = client.messages.create(
             to=f'whatsapp:{to}',
-            from_='whatsapp:+14155238886', # Your Twilio WhatsApp number with country code whatsapp:+123456789
+            from_='', # Your Twilio WhatsApp number with country code whatsapp:+123456789
             body=body
         )
         print(f"Message sent: {message.sid}")
