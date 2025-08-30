@@ -34,9 +34,9 @@ pip install twilio
    ```
 4. Replace `from_` with your **Twilio WhatsApp number**:
    ```python
-   from_="whatsapp:+14155238886"
+   from_="whatsapp:+124536598778"
    ```
-   (The default Twilio Sandbox number is usually `+14155238886`.)
+   (The default Twilio Sandbox number is usually `+124536598778`.)
 
 ---
 
